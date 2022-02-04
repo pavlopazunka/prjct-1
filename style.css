@@ -1,0 +1,918 @@
+*{margin: o; padding: 0; box-sizing: border-box;}
+body{
+    background-color: black;
+}
+.container{
+    height: 280vh;
+    width: 100%;
+    
+}
+.header{
+    background-color: black;
+    height: 124px;
+    width: 100%;
+    display: flex;
+    gap: 60px;
+}
+.logo{
+    height: 124px;
+    width: 124px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bear{
+    height: 80px;
+    width: 80px;
+}
+.links{
+    height: 124px;
+    width: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.link{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 24px;
+}
+.skip{
+    background-color: black;
+    height: 124px;
+    width: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    font-family:'Montserrat';
+    color: white;
+    font-size: 24px;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 124px;
+    width: 124px;
+}
+.iconcart{
+    height: 80px;
+    width: 80px;
+}
+.box1{
+    height: 344px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 32px;
+}
+.photo{
+    height: 344px;
+    width:348px;
+}
+.whitetext{
+    font-size: 28px;
+    font-family: 'Montserrat';
+    color: white;
+}
+.whitetinytext{
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: white;
+    opacity: 60%;
+}
+.tiny{
+    opacity:70%;
+}
+.jumbo{
+    background-color: black;
+    height: 344px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.learnmore {
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 24px;
+    height: 35px;
+    width:260px;
+    display: inline-block;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: 0.72;
+}
+.learnmore:hover{
+    color: white;
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+.skip2{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.ourgoods{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    color: white;
+}
+.ourgoods2{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Montserrat';
+    color: white;
+}
+.skip3{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+.box2{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    height: 248px;
+    width: 985px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photos{
+    height: 190px;
+    width: 985px;
+    display: flex;
+    gap: 56px;
+}
+.phones{
+    height: 190px;
+    width: 291px;
+    background-image: url(Phone.png);
+    background-size: cover;
+    transition: 0.72;
+}
+.phones:hover{
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+.notebooks{
+    height: 190px;
+    width:291px;
+    background-image: url(Notebooks.png);
+    background-size: cover;
+    transition: 0.72;
+}
+.notebooks:hover{
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+.headphones{
+    height: 190px;
+    width: 291px;
+    background-image: url(Headphones.png);
+    background-size: cover;
+    transition: 0.72;
+}
+.headphones:hover{
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+.text1{
+    height: 58px;
+    width: 100%;
+    display: flex;
+    gap: 56px;
+}
+.text2{
+    height: 58px;
+    width: 291px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text3{
+    font-size:36px;
+    font-family: 'Montserrat';
+    color: white;
+}
+.box4{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.keyboards{
+    height: 190px;
+    width: 291px;
+    background-image: url(Keyboard.png);
+    background-size: cover;
+    transition: 0.72;
+}
+.keyboards:hover{
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+.mouses{
+    height: 190px;
+    width: 291px;
+    background-image: url(Mouse.png);
+    background-size: cover;
+    transition: 0.72;
+}
+.mouses:hover{
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+.boomboxes{
+    height: 190px;
+    width: 291px;
+    background-image: url(Boombox.png);
+    background-size: cover;
+    transition: 0.72;
+}
+.boomboxes:hover{
+    transform: scale(1.08);
+    transition: 0.24s;
+}
+.box5{
+    height: 389px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box6{
+    height: 389px;
+    width: 1075px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 59px;
+}
+.markz{
+    height: 389px;
+    width:319px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.elonm{
+    height: 389px;
+    width:319px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dimak{
+    height: 389px;
+    width:319px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.emusk{
+    height:82px;
+    width: 82px;
+    border:1px solid black;
+    border-radius: 50px;
+    background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/0B02/production/_121481820_gettyimages-1229893385.jpg);
+    background-size: cover;
+}
+.text4{
+    font-size: 20px;
+    font-family: 'Montserrat';  
+    color: white;  
+}
+.mzuckerberg{
+    height:82px;
+    width: 82px;
+    border:1px solid black;
+    border-radius: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRzPImrO_UAPzFaVQTiij3ubV1QX25RXw59iOA7NdCpfrcDhD8bP_0ReF-0fubPDIeAhw&usqp=CAU);
+    background-size: cover;
+}
+.dkuplinov{
+    height:82px;
+    width: 82px;
+    border:1px solid black;
+    border-radius: 50px;
+    background-image: url(https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxR7jc1rgqeNmhcc-rPGLC_Sw);
+    background-size: cover;
+}
+.coompanies{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(companies.png);
+    background-size: cover;
+}
+@media only screen and (max-width: 1100px){
+    .whitetext{
+        font-size: 16px;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    .whitetinytext{
+        font-size: 10px;
+        font-family: 'Montserrat';
+        color: white;
+        opacity: 60%;
+    }
+    .tiny{
+        opacity:70%;
+    }
+    .jumbo{
+        background-color: black;
+        height: 244px;
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+    }
+    .learnmore {
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 24px;
+        height: 35px;
+        width:260px;
+        display: inline-block;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 10px;
+        transition: 0.72;
+    }
+    .learnmore:hover{
+        color: white;
+        transform: scale(1.08);
+        transition: 0.24s;
+    }
+    .skip2{
+        height: 50px;
+        width: 100%;
+        background-color: black;
+    }
+    .ourgoods{
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    .logo{
+        height: 124px;
+        width: 124px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bear{
+        height: 80px;
+        width: 80px;
+    }
+    .links{
+        height: 124px;
+        width: 408px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .link{
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 24px;
+       
+    }
+    .skip{
+        background-color: black;
+        height: 124px;
+        width: 408px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .btn{
+
+        font-family:'Montserrat';
+        color: white;
+        font-size: 24px;
+        
+    }
+
+    .cart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 124px;
+        width: 124px;
+    }
+    .iconcart{
+        height: 80px;
+        width: 80px;
+    }
+    .box2{
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .box3{
+        height: 248px;
+        width: 985px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .photos{
+        height: 190px;
+        width: 985px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 56px;
+    }
+    .phones{
+        height: 190px;
+        width: 291px;
+        background-image: url(Phone.png);
+        background-size: cover;
+        transition: 0.72;
+    }
+    .phones:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+    }
+    .notebooks{
+        height: 190px;
+        width:291px;
+        background-image: url(Notebooks.png);
+        background-size: cover;
+        transition: 0.72;
+    }
+    .notebooks:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+    }
+    .headphones{
+        height: 190px;
+        width: 291px;
+        display: none;
+        background-image: url(Headphones.png);
+        background-size: cover;
+        transition: 0.72;
+    }
+    .headphones:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+        display: none;
+    }
+    .text1{
+        height: 58px;
+        width: 100%;
+        display: none;
+        gap: 56px;
+    }
+    .text2{
+        height: 58px;
+        width: 291px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text3{
+        font-size:36px;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    .box4{
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .keyboards{
+        height: 190px;
+        width: 291px;
+        background-image: url(Keyboard.png);
+        background-size: cover;
+        transition: 0.72;
+    }
+    .keyboards:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+    }
+    .mouses{
+        height: 190px;
+        width: 291px;
+        background-image: url(Mouse.png);
+        background-size: cover;
+        transition: 0.72;
+    }
+    .mouses:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+    }
+    .boomboxes{
+        height: 190px;
+        width: 291px;
+        background-image: url(Boombox.png);
+        background-size: cover;
+        transition: 0.72;
+        display: none;
+    }
+    .boomboxes:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+        display: none;
+    }
+    .box5{
+        height: 389px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .box6{
+        height: 1170px;
+        width: 1075px;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 59px;
+    }
+    .markz{
+        height: 389px;
+        width:319px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .elonm{
+        height: 389px;
+        width:319px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .dimak{
+        height: 389px;
+        width:319px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .emusk{
+        height:82px;
+        width: 82px;
+        border:1px solid black;
+        border-radius: 50px;
+        background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/0B02/production/_121481820_gettyimages-1229893385.jpg);
+        background-size: cover;
+    }
+    .text4{
+        font-size: 20px;
+        font-family: 'Montserrat';  
+        color: white;  
+    }
+    .mzuckerberg{
+        height:82px;
+        width: 82px;
+        border:1px solid black;
+        border-radius: 50px;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRzPImrO_UAPzFaVQTiij3ubV1QX25RXw59iOA7NdCpfrcDhD8bP_0ReF-0fubPDIeAhw&usqp=CAU);
+        background-size: cover;
+    }
+    .dkuplinov{
+        height:82px;
+        width: 82px;
+        border:1px solid black;
+        border-radius: 50px;
+        background-image: url(https://i.mycdn.me/i?r=AyH4iRPQ2q0otWIFepML2LxR7jc1rgqeNmhcc-rPGLC_Sw);
+        background-size: cover;
+    }
+    .coompanies{
+        height: 100px;
+        width: 100%;
+        
+        justify-content: center;
+        align-items: center;
+        background-image: url(companies.png);
+        background-size: cover;
+        display: none;
+    }
+    .ourgoods2{
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 48px;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    
+}
+@media only screen and (max-width: 768px){
+    .container{
+        height: 280vh;
+        width: 100%;
+        
+    }
+    .header{
+        background-color: black;
+        height: 124px;
+        width: 100%;
+        display: flex;
+        gap: 60px;
+    }
+    .skip3{
+        display: none;
+    }
+    .logo{
+        height: 124px;
+        width: 124px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bear{
+        height: 80px;
+        width: 80px;
+    }
+    .links{
+        height: 124px;
+        width: 408px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    .link{
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 24px;
+        display: none;
+    }
+    .skip{
+        background-color: black;
+        height: 200px;
+        width: 408px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .btn{
+        font-family:'Montserrat';
+        color: white;
+        font-size: 24px;
+    }
+    
+    .cart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 124px;
+        width: 124px;
+    }
+    .iconcart{
+        height: 80px;
+        width: 80px;
+    }
+    
+    .container{
+        height: 280vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1{
+        height: 344px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       gap: 32px;
+    }
+    .photo{
+        height: 244px;
+        width: 248px;
+    }
+    .whitetext{
+        font-size: 18px;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    .whitetinytext{
+        font-size: 10px;
+        font-family: 'Montserrat';
+        color: white;
+        opacity: 60%;
+    }
+    .tiny{
+        opacity:70%;
+    }
+    .jumbo{
+        background-color: black;
+        height: 244px;
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .learnmore {
+        font-family: 'Montserrat';
+        color: white;
+        font-size: 24px;
+        height: 35px;
+        width:260px;
+        display: inline-block;
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 10px;
+        transition: 0.72;
+    }
+    .learnmore:hover{
+        color: white;
+        transform: scale(1.08);
+        transition: 0.24s;
+    }
+    .box3{
+        height: 400px;
+        width: 985px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .photos{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: center;
+        gap: 56px;
+    }
+    .phones{
+        height: 190px;
+        width: 291px;
+        background-image: url(Phone.png);
+        background-size: cover;
+        transition: 0.72;
+    }
+    .phones:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+    }
+    .notebooks{
+        height: 190px;
+        width:291px;
+        background-image: url(Notebooks.png);
+        background-size: cover;
+        transition: 0.72;
+    }
+    .notebooks:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+    }
+    .headphones{
+        height: 190px;
+        width: 291px;
+        display: none;
+        background-image: url(Headphones.png);
+        background-size: cover;
+        transition: 0.72;
+    }
+    .headphones:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+        display: none;
+    }
+    .text1{
+        height: 58px;
+        width: 100%;
+        display: none;
+        gap: 56px;
+    }
+    .text2{
+        height: 58px;
+        width: 291px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text3{
+        font-size:36px;
+        font-family: 'Montserrat';
+        color: white;
+    }
+    .box4{
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .keyboards{
+        height: 190px;
+        width: 291px;
+        background-image: url(Keyboard.png);
+        background-size: cover;
+        transition: 0.72;
+        display: none;
+    }
+    .keyboards:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+        display: none;
+    }
+    .mouses{
+        height: 190px;
+        width: 291px;
+        background-image: url(Mouse.png);
+        background-size: cover;
+        transition: 0.72;
+        display: none;
+    }
+    .mouses:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+        display: none;
+    }
+    .boomboxes{
+        height: 190px;
+        width: 291px;
+        background-image: url(Boombox.png);
+        background-size: cover;
+        transition: 0.72;
+        display: none;
+    }
+    .boomboxes:hover{
+        transform: scale(1.08);
+        transition: 0.24s;
+        display: none;
+    }
+}
+ 
